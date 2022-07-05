@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.col1 {
+    float: left;
+    width: 20%;
+    padding: 1px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.pro {
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+    background-color: #2a2837;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.pro .header {
+    background: #2cc9af;
+    font-size: 35px;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 5px 5px 0 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pro li {
+    text-align: center;
+    padding: 20px;
+}
+
+.pro .header-purple {
+    background: #6059bf;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 5px 5px 0 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pro .emph {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2a2837;
+    font-size: 50px;
+    border-radius: 10px;
+}
+
+.button {
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FEEDBACK FORM</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1>WELCOME TO FEEDBACK FORM</h1>
+    <form action="" id="form">
+      <!-- Details -->
+      <div class="form-control">
+        <label for="name" id="label-name">NAME</label>
+        <!-- NAME -->
+        <input type="text" id="name" placeholder="ENTER YOUR NAME" />
+      </div>
+      <div class="form-control">
+        <label for="email" id="label-email">EMAIL</label>
+        <!-- EMAIL -->
+        <input type="email" id="email" placeholder="ENTER YOUR EMAIL" />
+      </div>
+      <div class="form-control">
+        <label for="age" id="label-age">AGE</label>
+        <!-- AGE -->
+        <input type="text" id="age" placeholder="ENTER YOUR AGE" />
+      </div>
+
+      <div class="form-control">
+        <label for="role" id="label-role">OCCUPATION</label>
+        <select name="role" id="role">
+          <option value="student">STUDENT</option>
+          <option value="intern">INTERN</option>
+          <option value="sde">Professional</option>
+        </select>
+      </div>
+      <div class="form-control">
+         <label>Languages and Frameworks known
+               
+            </label>
+        <label for="inp-1">
+          <input type="checkbox" name="inp">C
+        </label>
+        <label for="inp-2">
+           <input type="checkbox" name="inp">C++
+        </label>
+        <label for="inp-3">
+           <input type="checkbox" name="inp">JAVA
+        </label>
+        <label for="inp-4">
+           <input type="checkbox" name="inp">REACT
+        </label>
+        <label for="inp-5">
+           <input type="checkbox" name="inp">DJANGO
+        </label>
+      </div>
+      <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div>
+        <button type="submit" value="submit">
+            SUBMIT
+        </button>
+        <button type="reset">RESET</button>
+    </form>
+  </body>
+</html>

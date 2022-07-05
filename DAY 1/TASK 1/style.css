@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans&display=swap');
+
+* {
+    font-family: 'roboto', sans-serif;
+    width: fit-content;
+}
+
+body {
+background: linear-gradient(135deg, rgb(135, 163, 233) 0, rgb(220, 138, 204) 58%);
+}
+
+.main {
+    border-radius: 10px;
+    background: rgba(233, 221, 221, 0.7);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+    color: rgb(36, 32, 32);
+    
+}
+
+.code-name {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+table {
+    padding: 20px;
+}
+
+td {
+    padding: 20px;
+}
+
+.heading {
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+
+}
+
+h3 {
+    font-style: italic;
+}

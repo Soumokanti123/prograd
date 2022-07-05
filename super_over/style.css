@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,400&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, rgb(222, 184, 14), rgba(22, 84, 229, 0.912));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color:whitesmoke;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+    align-self: center;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > .row {
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.profile-icon {
+    border-radius: 50%;
+    border: 2px solid burlywood;
+}
+
+.name {
+    margin: 20px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.round-runs {
+    font-size: x-large;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+#striker-button {
+    margin: 20px;
+    width: 300px;
+    border-radius: 25px;
+    border: none;
+    font-size: large;
+    color: white;
+    background: linear-gradient(135deg, rgb(192, 202, 44), blue);
+    padding: 10px;
+    outline: none;
+}
+
+#striker-button:hover {
+    box-shadow: 0 0 10px 0 black;
+}
+
+.score {
+    margin: -80px 0 0;
+    font-size: xx-large;
+}
+
+.score>span {
+    margin: 0 5px;
+}
